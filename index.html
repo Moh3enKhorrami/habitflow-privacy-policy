@@ -1,82 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HabitFlow - Privacy Policy</title>
-    <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.6; }
-        h1 { color: #1a73e8; }
-        h2 { color: #444; margin-top: 30px; border-bottom: 1px solid #eee; padding-bottom: 8px; }
-        h3 { color: #555; margin-top: 20px; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 6px; }
-        .note { background: #f8f9fa; border-left: 4px solid #1a73e8; padding: 12px 16px; margin: 16px 0; border-radius: 4px; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HabitFlow: Daily Rhythm — Privacy &amp; Support</title>
+<style>
+body{font-family:system-ui,sans-serif;max-width:800px;margin:40px auto;padding:0 22px;color:#283044;line-height:1.7;background:#fafbff}h1,h2{color:#30306b}h2{margin-top:32px}a{color:#4747b8}.note{background:#eeefff;padding:18px;border-radius:12px}nav{margin:24px 0}footer{margin-top:40px;border-top:1px solid #ddd;padding-top:20px}
+</style>
 </head>
 <body>
-    <h1>Privacy Policy</h1>
-    <p><strong>App:</strong> HabitFlow — Daily Habit Tracker<br>
-    <strong>Last updated:</strong> April 9, 2026</p>
-
-    <div class="note">
-        HabitFlow is designed with privacy in mind. All your data stays on your device. We do not collect, transmit, or store any personal information on external servers.
-    </div>
-
-    <h2>1. Data We Collect</h2>
-    <p>HabitFlow stores the following data <strong>locally on your device only</strong>, in a SQLite database:</p>
-    <ul>
-        <li>Habits you create (name, description, icon, color, category, frequency)</li>
-        <li>Daily completions and streak history</li>
-        <li>Reminders and notification schedules</li>
-        <li>Mood logs and habit notes</li>
-        <li>Routines, challenges, and badges</li>
-        <li>App settings and preferences</li>
-    </ul>
-    <p>This data is never transmitted to us or any third party.</p>
-
-    <h2>2. Permissions We Request</h2>
-
-    <h3>Notifications</h3>
-    <p>Used to send habit reminders at times you configure. All notification scheduling is handled locally on your device.</p>
-
-    <h3>Microphone &amp; Speech Recognition</h3>
-    <p>Used optionally for voice-based habit logging. Speech is processed on-device using your operating system's built-in speech recognition (iOS Siri / Android Google Speech). No audio is recorded or stored by HabitFlow.</p>
-
-    <h3>Calendar</h3>
-    <p>Used optionally to sync your habits as events in your device's native calendar app. Calendar data is read and written directly on your device and is not shared with us.</p>
-
-    <h3>Health Data (iOS HealthKit / Android Google Fit)</h3>
-    <p>Used optionally to auto-complete health-related habits by reading step count, workout, and sleep data from your device's health platform. We only read this data to check habit completion — we do not store or transmit it.</p>
-
-    <h2>3. Data Backup</h2>
-    <p>HabitFlow supports the following backup mechanisms:</p>
-    <ul>
-        <li><strong>iOS:</strong> Automatic iCloud backup (handled by iOS, subject to Apple's privacy policy)</li>
-        <li><strong>Android:</strong> Automatic Google Play backup (handled by Android, subject to Google's privacy policy)</li>
-        <li><strong>Manual export:</strong> You can export your data as JSON or CSV and share it using your device's native share sheet. This export is fully under your control.</li>
-    </ul>
-
-    <h2>4. Third-Party Services</h2>
-    <p>HabitFlow does <strong>not</strong> use any third-party analytics, advertising, crash reporting, or cloud services. There is no Firebase, no tracking SDK, and no remote database.</p>
-    <p>The only external integrations are native device features you explicitly enable:</p>
-    <ul>
-        <li>Device calendar (read/write)</li>
-        <li>Apple HealthKit / Android Google Fit (read only)</li>
-        <li>Device speech recognition (on-device processing)</li>
-    </ul>
-
-    <h2>5. User Accounts</h2>
-    <p>HabitFlow does not require or support user accounts. No registration, no login, no cloud sync.</p>
-
-    <h2>6. Children's Privacy</h2>
-    <p>HabitFlow does not knowingly collect any personal information from children under the age of 13.</p>
-
-    <h2>7. Changes to This Policy</h2>
-    <p>If we update this Privacy Policy, we will update the "Last updated" date above. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
-
-    <h2>8. Contact</h2>
-    <p>If you have any questions about this Privacy Policy, please contact us at:<br>
-    <a href="mailto:khorrami.dev@gmail.com">khorrami.dev@gmail.com</a></p>
+<h1>HabitFlow: Daily Rhythm</h1>
+<nav><a href="#support">App Support</a> · <a href="#privacy">Privacy Policy</a></nav>
+<section id="support">
+<h2>App Support</h2>
+<p>For help with HabitFlow, bug reports, or privacy questions, email <a href="mailto:khorrami.apps@gmail.com">khorrami.apps@gmail.com</a>.</p>
+<p>For technical issues, please include your device model, iOS version, app version, and a description of what happened. Do not send passwords or private habit or health information. If you include screenshots, remove sensitive information first.</p>
+</section>
+<section id="privacy">
+<h2>Privacy Policy</h2>
+<p><strong>Last updated:</strong> October 8, 2026<br><strong>Developer:</strong> Mohsen Khorrami</p>
+<p class="note">Your habit records are stored locally on your device. HabitFlow does not require an account. Remote notifications use Google Firebase Cloud Messaging and Apple Push Notification service, which process technical information needed to deliver notifications.</p>
+<h2>1. Information stored on your device</h2>
+<p>HabitFlow stores habits, completion and streak history, reminders, notes, mood entries, routines, challenges, badges, and app preferences in local app storage. We do not upload your habit database to a developer-operated server or to Firebase for notification delivery.</p>
+<h2>2. Notifications and Firebase</h2>
+<p>With your permission, HabitFlow displays local habit reminders and can receive remote push notifications. Local reminders are scheduled on your device.</p>
+<p>Remote notifications use Firebase Cloud Messaging (Google) and Apple Push Notification service (APNs). These services process technical information such as Firebase installation identifiers, notification registration tokens, IP addresses, and service connection information to register the app installation and deliver messages. HabitFlow subscribes installations to a notification topic based on the app language. Your habit names, notes, mood entries, and health records are not included in that subscription.</p>
+<p>You can change notification permissions in iOS Settings. Disabling alerts does not necessarily stop all technical communication with the messaging service while the app is installed.</p>
+<p>Learn more in <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a> and <a href="https://www.apple.com/legal/privacy/">Apple’s Privacy Policy</a>.</p>
+<h2>3. Optional device permissions</h2>
+<h3>Microphone and speech recognition</h3>
+<p>If you use voice-based habit logging, HabitFlow requests microphone and speech recognition access. Recognition is provided by the operating system and may use its provider’s servers depending on device capabilities and settings. HabitFlow does not save audio recordings in its habit database or send them to a developer-operated server. Recognized text is used to match and complete a habit.</p>
+<h3>Calendar</h3>
+<p>If you enable calendar integration, HabitFlow requests calendar access to create habit events. Events may sync through your selected calendar account according to that account’s settings. HabitFlow does not upload your calendar to a developer-operated server.</p>
+<h3>Health</h3>
+<p>Health integration is currently disabled in this release. HabitFlow does not currently read HealthKit data. If this changes in a future release, this policy will be updated and the app will request the required permission.</p>
+<p>You can manage device permissions in iOS Settings.</p>
+<h2>4. Backups and exports</h2>
+<p>You can export habit data and choose where to save or share it. Exported files may contain personal habit information. Any service you choose to receive a file handles it under its own policy.</p>
+<p>App data and locally created backup files may be included in device or iCloud backups if enabled in your Apple settings. This depends on your device configuration; HabitFlow does not provide a separate developer-hosted cloud database or cross-device synchronization service.</p>
+<h2>5. Analytics, advertising, and accounts</h2>
+<p>HabitFlow does not include advertising, advertising tracking, Firebase Analytics, or Crashlytics. Firebase Cloud Messaging is used for notification delivery. HabitFlow does not require user registration or login.</p>
+<h2>6. Support communications</h2>
+<p>If you email us, we receive your email address and whatever information you include. We use that information to respond to your request and investigate reported issues. Support email is handled through Gmail under <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a>. You can contact us to request deletion of support correspondence, subject to any applicable retention requirements.</p>
+<h2>7. Retention and deletion</h2>
+<p>Local habit information remains on your device until you remove it in the app or delete the app. Offloading the app may preserve its data. Backups and exported copies must be managed separately in the services or locations where you saved them. Notification service information is retained according to the relevant provider’s policies.</p>
+<h2>8. Children’s privacy</h2>
+<p>HabitFlow is not specifically directed at children under 13. If you believe a child has sent personal information to us through support, contact us so we can investigate and remove that information where appropriate.</p>
+<h2>9. Policy updates</h2>
+<p>We may update this policy when app features or data practices change. The latest version and its update date will appear on this page.</p>
+<h2>10. Contact</h2>
+<p>Mohsen Khorrami<br><a href="mailto:khorrami.apps@gmail.com">khorrami.apps@gmail.com</a></p>
+</section>
+<footer>HabitFlow: Daily Rhythm — Privacy &amp; Support</footer>
 </body>
 </html>
